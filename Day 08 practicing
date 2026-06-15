@@ -1,0 +1,91 @@
+#DAY:09 
+#PRACTICED SOME MORE LIST CONCEPTS
+
+#checking element in list
+
+fruits=["apple","mango","banana"]
+
+print("apple" in fruits)
+print("grapes" in fruits)
+
+#not in operator
+
+print("orange" not in fruits)
+
+#length of list
+
+print(len(fruits))
+
+#iterating using range()
+
+numbers=[10,20,30,40]
+
+for i in range(len(numbers)):
+    print(numbers[i])
+
+#list of different data types
+
+data=["Bhargavi",20,85.5,True]
+
+print(data)
+
+#empty list
+
+empty=[]
+
+print(empty)
+
+#adding values later
+
+empty.append(100)
+empty.append(200)
+
+print(empty)
+
+#deleting entire list
+
+sample=[1,2,3]
+
+print(sample)
+
+del sample
+
+#list comprehension
+
+numbers=[1,2,3,4,5]
+
+square=[x*x for x in numbers]
+
+print(square)
+
+#even numbers
+
+even=[x for x in numbers if x%2==0]
+
+print(even)
+
+
+#output by the vscode
+True
+False
+
+True
+
+3
+
+10
+20
+30
+40
+
+['Bhargavi', 20, 85.5, True]
+
+[]
+
+[100, 200]
+
+[1, 2, 3]
+
+[1, 4, 9, 16, 25]
+
+[2, 4]
