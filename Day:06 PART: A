@@ -1,0 +1,155 @@
+#DAY:06
+#PRACTICED LISTS IN PYTHON
+
+#creating lists
+
+fruits=["apple","mango","banana"]
+numbers=[10,20,30,40,50]
+
+print(fruits)
+print(numbers)
+
+#indexing
+
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+#negative indexing
+
+print(fruits[-1])
+print(fruits[-2])
+
+#list slicing
+
+print(numbers[1:4])
+print(numbers[:3])
+print(numbers[2:])
+print(numbers[::-1])
+
+#updating list elements
+
+fruits[1]="orange"
+
+print(fruits)
+
+#adding elements
+
+fruits.append("grapes")
+
+print(fruits)
+
+fruits.insert(1,"kiwi")
+
+print(fruits)
+
+#removing elements
+
+fruits.remove("apple")
+
+print(fruits)
+
+fruits.pop()
+
+print(fruits)
+
+#length of list
+
+print(len(fruits))
+
+#membership operators
+
+print("banana" in fruits)
+print("watermelon" in fruits)
+
+#looping through list
+
+for item in fruits:
+    print(item)
+
+#list methods
+
+numbers=[50,10,30,20,40]
+
+numbers.sort()
+print(numbers)
+
+numbers.reverse()
+print(numbers)
+
+print(numbers.count(20))
+
+print(numbers.index(30))
+
+#nested lists
+
+data=[[1,2,3],[4,5,6]]
+
+print(data)
+
+print(data[0])
+
+print(data[1][2])
+
+#user input example
+
+name1=input("Enter first student name: ")
+name2=input("Enter second student name: ")
+
+students=[name1,name2]
+
+print(students)
+
+#output by the vscode
+['apple', 'mango', 'banana']
+[10, 20, 30, 40, 50]
+
+apple
+mango
+banana
+
+banana
+mango
+
+[20, 30, 40]
+[10, 20, 30]
+[30, 40, 50]
+[50, 40, 30, 20, 10]
+
+['apple', 'orange', 'banana']
+
+['apple', 'orange', 'banana', 'grapes']
+
+['apple', 'kiwi', 'orange', 'banana', 'grapes']
+
+['kiwi', 'orange', 'banana', 'grapes']
+
+['kiwi', 'orange', 'banana']
+
+3
+
+True
+False
+
+kiwi
+orange
+banana
+
+[10, 20, 30, 40, 50]
+
+[50, 40, 30, 20, 10]
+
+1
+
+2
+
+[[1, 2, 3], [4, 5, 6]]
+
+[1, 2, 3]
+
+6
+
+Enter first student name: Souzan
+Enter second student name: Bhargavi
+
+['Souzan', 'Bhargavi']
