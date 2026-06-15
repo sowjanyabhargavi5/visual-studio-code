@@ -1,0 +1,144 @@
+#DAY:07
+#PRACTICED MORE LIST CONCEPTS IN PYTHON
+
+#copying a list
+
+list1=[10,20,30]
+
+list2=list1.copy()
+
+print(list1)
+print(list2)
+
+#extending a list
+
+list1.extend([40,50])
+
+print(list1)
+
+#clearing a list
+
+temp=[1,2,3]
+
+print(temp)
+
+temp.clear()
+
+print(temp)
+
+#maximum and minimum values
+
+numbers=[45,12,89,23,67]
+
+print(max(numbers))
+print(min(numbers))
+
+#sum of list elements
+
+print(sum(numbers))
+
+#finding element using index
+
+fruits=["apple","mango","banana","orange"]
+
+print(fruits.index("banana"))
+
+#counting elements
+
+data=[10,20,10,30,10,40]
+
+print(data.count(10))
+
+#sorting strings
+
+names=["sai","ravi","anil","bhargavi"]
+
+names.sort()
+
+print(names)
+
+#reversing strings
+
+names.reverse()
+
+print(names)
+
+#list concatenation
+
+list1=[1,2,3]
+
+list2=[4,5,6]
+
+list3=list1+list2
+
+print(list3)
+
+#repeating a list
+
+numbers=[1,2,3]
+
+print(numbers*3)
+
+#taking list input from user
+
+num1=int(input("Enter first number: "))
+num2=int(input("Enter second number: "))
+num3=int(input("Enter third number: "))
+
+numbers=[num1,num2,num3]
+
+print(numbers)
+
+print(sum(numbers))
+
+#real life example
+
+marks=[85,90,78,88,95]
+
+print(marks)
+
+print("Total Marks =",sum(marks))
+
+average=sum(marks)/len(marks)
+
+print("Average =",average)
+
+#output given by the vscode
+[10, 20, 30]
+[10, 20, 30]
+
+[10, 20, 30, 40, 50]
+
+[1, 2, 3]
+[]
+
+89
+12
+
+236
+
+2
+
+3
+
+['anil', 'bhargavi', 'ravi', 'sai']
+
+['sai', 'ravi', 'bhargavi', 'anil']
+
+[1, 2, 3, 4, 5, 6]
+
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+Enter first number: 10
+Enter second number: 20
+Enter third number: 30
+
+[10, 20, 30]
+
+60
+
+[85, 90, 78, 88, 95]
+
+Total Marks = 436
+
+Average = 87.2
