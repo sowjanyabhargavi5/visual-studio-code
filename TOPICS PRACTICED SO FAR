@@ -1,0 +1,65 @@
+"""##Python Topics Covered So Far
+
+##This file contains my Python practice programs and examples.
+
+##Topics covered till now:"""
+
+
+
+""""""" * Input and Output Functions
+* Comments
+* Variables
+* Data Types
+* Type Conversion
+    * Implicit Type Conversion
+    * Explicit Type Conversion
+    * Built-in Type Conversion Functions
+* ASCII Values
+    * ord()
+    * chr()
+* Operators
+    * Arithmetic Operators
+    * Comparison Operators
+    * Logical Operators
+    * Assignment Operators
+    * Membership Operators
+    * Identity Operators
+* Conditional Statements
+    * if
+    * if-else
+    * if-elif-else
+* Loops
+    * for Loop
+    * while Loop
+    * break
+    * continue
+* Nested Loops
+* Strings
+    * String Creation
+    * Indexing
+    * Negative Indexing
+    * Slicing
+    * Concatenation
+    * String Methods
+    * String Formatting
+    * Escape Sequences
+* Functions
+    * Function Definition
+    * Function Calling
+    * Parameters and Arguments
+    * Return Statement
+    * Local and Global Variables
+    * Lambda Functions
+* Lists
+    * Creating Lists
+    * Indexing
+    * Negative Indexing
+    * Slicing
+    * Updating Elements
+    * Adding Elements
+    * Removing Elements
+    * List Methods
+    * Nested Lists
+    * List Comprehensions
+
+More topics will be added as I continue learning Python."""""""
