@@ -1,0 +1,57 @@
+#PART-A
+
+#creating a tuple
+
+fruits=(“apple”,“mango”,“banana”)
+
+print(fruits)
+
+#tuple with different data types
+
+data=(“Bhargavi”,20,85.5,True)
+
+print(data)
+
+#single element tuple
+
+numbers=(10,)
+
+print(numbers)
+
+#indexing
+
+print(fruits[0])
+
+print(fruits[1])
+
+#negative indexing
+
+print(fruits[-1])
+
+print(fruits[-2])
+
+#slicing
+
+print(fruits[0:2])
+
+print(fruits[1:])
+
+
+#output given by the vscode:
+('apple', 'mango', 'banana')
+
+('Bhargavi', 20, 85.5, True)
+
+(10,)
+
+apple
+
+mango
+
+banana
+
+mango
+
+('apple', 'mango')
+
+('mango', 'banana')
