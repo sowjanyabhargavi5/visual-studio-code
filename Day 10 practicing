@@ -1,0 +1,117 @@
+#PART-C
+
+#count method
+
+numbers=(10,20,10,30,10)
+
+print(numbers.count(10))
+
+#index method
+
+print(numbers.index(20))
+
+#built in functions
+
+marks=(85,90,78,95)
+
+print(len(marks))
+
+print(max(marks))
+
+print(min(marks))
+
+print(sum(marks))
+
+#output given by the vscode:
+3
+
+1
+
+4
+
+95
+
+78
+
+348
+
+
+
+####
+#PART-D
+
+#tuple packing
+
+student="Bhargavi",20,"CSE"
+
+print(student)
+
+#tuple unpacking
+
+name,age,branch=student
+
+print(name)
+
+print(age)
+
+print(branch)
+
+#nested tuple
+
+data=((1,2,3),(4,5,6))
+
+print(data)
+
+print(data[0])
+
+print(data[1][2])
+
+#converting tuple to list
+
+numbers=(1,2,3)
+
+numbers=list(numbers)
+
+print(numbers)
+
+#converting list to tuple
+
+items=[10,20,30]
+
+items=tuple(items)
+
+print(items)
+
+#user input example
+
+name=input("Enter your name: ")
+
+age=int(input("Enter your age: "))
+
+student=(name,age)
+
+print(student)
+
+#output given by the vscode:
+('Bhargavi', 20, 'CSE')
+
+Bhargavi
+
+20
+
+CSE
+
+((1, 2, 3), (4, 5, 6))
+
+(1, 2, 3)
+
+6
+
+[1, 2, 3]
+
+(10, 20, 30)
+
+Enter your name: Souzan
+Enter your age: 20
+
+('Souzan', 20)
