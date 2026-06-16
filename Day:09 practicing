@@ -1,0 +1,46 @@
+#PART-B
+
+#tuples cannot be changed
+
+#fruits[0]=“orange”
+
+#this gives an error
+
+#concatenation
+
+tuple1=(1,2,3)
+
+tuple2=(4,5,6)
+
+print(tuple1+tuple2)
+
+#repetition
+
+print(tuple1*3)
+
+#membership operators
+
+fruits=(“apple”,“mango”,“banana”)
+
+print(“apple” in fruits)
+
+print(“grapes” in fruits)
+
+#looping through tuple
+
+for item in fruits:
+print(item)
+
+
+#output given by the vscode:
+(1, 2, 3, 4, 5, 6)
+
+(1, 2, 3, 1, 2, 3, 1, 2, 3)
+
+True
+
+False
+
+apple
+mango
+banana
