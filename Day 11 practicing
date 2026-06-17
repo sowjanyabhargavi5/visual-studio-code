@@ -1,0 +1,109 @@
+##creating dictionaries
+
+student = {
+    "name": "Bhargavi",
+    "age": 20,
+    "course": "Python"
+}
+
+print(student)
+
+##accesing elements
+student = {
+    "name": "Bhargavi",
+    "age": 20
+}
+
+print(student["name"])
+print(student["age"])
+
+##adding and updating values
+student = {
+    "name": "Bhargavi",
+    "age": 20
+}
+
+student["city"] = "Hyderabad"
+student["age"] = 21
+
+print(student)
+
+##removing values
+student = {
+    "name": "Bhargavi",
+    "age": 20,
+    "city": "Hyderabad"
+}
+
+del student["city"]
+
+print(student)
+
+
+##keys,values,items
+student = {
+    "name": "Bhargavi",
+    "age": 20
+}
+
+print(student.keys())
+print(student.values())
+print(student.items())
+
+##looping through dictionaries
+student = {
+    "name": "Bhargavi",
+    "age": 20,
+    "course": "Python"
+}
+
+for key in student:
+    print(key, ":", student[key])
+
+##dictionary methods
+student = {
+    "name": "Bhargavi",
+    "age": 20
+}
+
+print(student.get("name"))
+
+student.update({"city": "Hyderabad"})
+
+print(student)
+
+student.clear()
+
+print(student)
+
+
+
+##outputs given by the vscode for the above codes
+
+
+DICTIONARIES IN PYTHON
+
+{'name': 'Bhargavi', 'age': 20, 'course': 'Python'}
+
+Bhargavi
+20
+
+{'name': 'Bhargavi', 'age': 21, 'city': 'Hyderabad'}
+
+{'name': 'Bhargavi', 'age': 20}
+
+dict_keys(['name', 'age'])
+dict_values(['Bhargavi', 20])
+dict_items([('name', 'Bhargavi'), ('age', 20)])
+
+name : Bhargavi
+age : 20
+course : Python
+
+Bhargavi
+{'name': 'Bhargavi', 'age': 20, 'city': 'Hyderabad'}
+{}
+
+Program Completed Successfully!
+
+
