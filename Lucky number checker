@@ -1,0 +1,15 @@
+#LUCKY NUMBER CHECKER
+
+lucky_numbers={3,7,9,11,21}
+
+num=int(input("Enter a number: "))
+
+if num in lucky_numbers:
+    print("Lucky Number")
+else:
+    print("Not a Lucky Number")
+
+
+##output given by the vscode
+Enter a number: 7
+Lucky Number
