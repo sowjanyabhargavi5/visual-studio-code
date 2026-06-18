@@ -1,0 +1,18 @@
+#CLASS ATTENDANCE CHECKER
+
+all_students={"Anu","Ravi","Bhargavi","Kiran","Sai"}
+
+present_students={"Anu","Bhargavi","Sai"}
+
+absent_students=all_students.difference(present_students)
+
+print("Absent Students")
+
+for student in absent_students:
+    print(student)
+
+##output given by the vscode:
+Absent Students
+
+Ravi
+Kiran
