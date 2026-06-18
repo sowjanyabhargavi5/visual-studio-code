@@ -1,0 +1,27 @@
+#UNIQUE CHARACTERS COUNTER
+
+text=input("Enter text: ")
+
+characters=set(text)
+
+print("Unique Characters")
+
+for char in characters:
+    print(char)
+
+print("Count:",len(characters))
+
+##in terminal
+Enter text: python
+
+##the output given by the vscode:
+Unique Characters
+
+p
+y
+t
+h
+o
+n
+
+Count: 6
