@@ -1,0 +1,19 @@
+#COMMON FRIENDS FINDER
+
+person1={"Anu","Ravi","Sai","Kiran"}
+
+person2={"Sai","Kiran","Rahul","Teja"}
+
+common_friends=person1.intersection(person2)
+
+print("Common Friends")
+
+for friend in common_friends:
+    print(friend)
+
+
+##output given by the vscode
+Common Friends
+
+Sai
+Kiran
