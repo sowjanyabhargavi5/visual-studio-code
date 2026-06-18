@@ -1,0 +1,22 @@
+#SKILL MATCHER
+
+your_skills={"Python","HTML","CSS","Git"}
+
+job_skills={"Python","Java","Git","SQL"}
+
+matched_skills=your_skills.intersection(job_skills)
+
+print("Matching Skills")
+
+for skill in matched_skills:
+    print(skill)
+
+
+##what i entered in the terminal:
+Enter a word: education
+
+
+##output given by the vscode
+Unique Vowels: {'e', 'u', 'a', 'i', 'o'}
+
+Count: 5
