@@ -1,0 +1,74 @@
+->#FROZEN SET
+
+numbers=frozenset([10,20,30,40])
+
+print(numbers)
+
+
+##output:
+frozenset({10, 20, 30, 40}
+
+
+
+
+->#SUBSET AND SUPERSET
+
+set1={1,2,3}
+
+set2={1,2,3,4,5}
+
+print(set1.issubset(set2))
+
+print(set2.issuperset(set1))
+
+
+##output:
+True
+
+True
+
+
+
+
+
+->#COPYING A SET
+
+set1={10,20,30}
+
+set2=set1.copy()
+
+print(set1)
+
+print(set2)
+
+
+##output:
+{10, 20, 30}
+
+{10, 20, 30}
+
+
+
+
+
+
+
+->#POP METHOD
+
+fruits={"apple","mango","banana"}
+
+print(fruits)
+
+removed=fruits.pop()
+
+print("Removed:",removed)
+
+print(fruits)
+
+
+##output:
+{'apple', 'mango', 'banana'}
+
+Removed: apple
+
+{'mango', 'banana'}
