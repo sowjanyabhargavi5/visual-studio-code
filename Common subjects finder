@@ -1,0 +1,18 @@
+#COMMON SUBJECTS FINDER
+
+student1={"Maths","Physics","Chemistry","English"}
+
+student2={"Physics","Biology","Maths","Hindi"}
+
+common=student1.intersection(student2)
+
+print("Common Subjects")
+
+for subject in common:
+    print(subject)
+
+##output guven by the vscode:
+Common Subjects
+
+Maths
+Physics
