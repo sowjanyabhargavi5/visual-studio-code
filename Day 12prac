@@ -1,0 +1,68 @@
+#SETS IN PYTHON - PART A
+
+#creating a set
+
+fruits={"apple","mango","banana"}
+
+print(fruits)
+
+#duplicates are removed automatically
+
+numbers={10,20,10,30,20,40}
+
+print(numbers)
+
+#adding an element
+
+fruits.add("orange")
+
+print(fruits)
+
+#adding multiple elements
+
+fruits.update(["grapes","kiwi"])
+
+print(fruits)
+
+#removing an element
+
+fruits.remove("apple")
+
+print(fruits)
+
+#discard method
+
+fruits.discard("kiwi")
+
+print(fruits)
+
+#membership operators
+
+print("mango" in fruits)
+
+print("watermelon" in fruits)
+
+#length of set
+
+print(len(fruits))
+
+
+##output given by the vscode
+
+{'apple', 'mango', 'banana'}
+
+{10, 20, 30, 40}
+
+{'apple', 'mango', 'banana', 'orange'}
+
+{'apple', 'mango', 'banana', 'orange', 'grapes', 'kiwi'}
+
+{'mango', 'banana', 'orange', 'grapes', 'kiwi'}
+
+{'mango', 'banana', 'orange', 'grapes'}
+
+True
+
+False
+
+4
