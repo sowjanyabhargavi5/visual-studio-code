@@ -1,0 +1,31 @@
+#UNIQUE CITY NAMES
+
+cities=set()
+
+for i in range(5):
+
+    city=input("Enter city: ")
+
+    cities.add(city)
+
+print("\nCities Visited")
+
+for city in cities:
+    print(city)
+
+
+##what we entered in the vscode
+Enter city: Hyderabad
+Enter city: Vizag
+Enter city: Hyderabad
+Enter city: Vijayawada
+Enter city: Vizag
+
+
+
+##output given by the vscode
+Cities Visited
+
+Hyderabad
+Vizag
+Vijayawada
