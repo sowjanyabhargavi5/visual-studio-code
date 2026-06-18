@@ -1,0 +1,38 @@
+#UNIQUE NUMBER COLLECTOR
+
+numbers=set()
+
+for i in range(5):
+
+    num=int(input("Enter number: "))
+
+    numbers.add(num)
+
+print("\nUnique Numbers")
+
+for num in numbers:
+    print(num)
+
+print("\nTotal Unique Numbers:",len(numbers))
+
+
+
+
+##what i entered in the vscode:
+Enter number: 10
+Enter number: 20
+Enter number: 10
+Enter number: 30
+Enter number: 20
+
+
+
+
+##output given by the vscode:
+Unique Numbers
+
+10
+20
+30
+
+Total Unique Numbers: 3
