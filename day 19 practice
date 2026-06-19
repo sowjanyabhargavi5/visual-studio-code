@@ -1,0 +1,28 @@
+#FILE HANDLING IN PYTHON - PART A
+
+#writing into a file
+
+file=open("sample.txt","w")
+
+file.write("Hello Python\n")
+file.write("Learning File Handling")
+
+file.close()
+
+print("Data Written Successfully")
+
+#reading from a file
+
+file=open("sample.txt","r")
+
+content=file.read()
+
+print(content)
+
+file.close()
+
+##output given by the vscode:
+Data Written Successfully
+
+Hello Python
+Learning File Handling
