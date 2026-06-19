@@ -1,0 +1,28 @@
+#FILE HANDLING IN PYTHON - PART B
+
+#appending data
+
+file=open("sample.txt","a")
+
+file.write("\nWelcome to Python")
+
+file.close()
+
+print("Data Appended Successfully")
+
+#reading line by line
+
+file=open("sample.txt","r")
+
+for line in file:
+    print(line.strip())
+
+file.close()
+
+##output given by the vsoode:
+
+  Data Appended Successfully
+
+Hello Python
+Learning File Handling
+Welcome to Python
