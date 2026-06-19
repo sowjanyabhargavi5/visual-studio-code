@@ -1,0 +1,50 @@
+#EXCEPTION HANDLING IN PYTHON - PART A
+
+#zero division error
+
+try:
+    result = 10 / 0
+    print(result)
+
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+
+#value error
+
+try:
+    age = int(input("Enter age: "))
+    print("Age:", age)
+
+except ValueError:
+    print("Please enter numbers only")
+
+#multiple exceptions
+
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    print("Result:", num1 / num2)
+
+except ValueError:
+    print("Invalid Input")
+
+except ZeroDivisionError:
+    print("Division by zero is not allowed")
+
+##what i entered in the vcsode terminal input:
+
+
+Enter age: 20
+Enter first number: 10
+Enter second number: 2
+
+##output given by the vscode:
+Cannot divide by zero
+
+Enter age: 20
+Age: 20
+
+Enter first number: 10
+Enter second number: 2
+Result: 5.0
