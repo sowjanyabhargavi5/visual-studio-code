@@ -1,0 +1,59 @@
+#EXCEPTION HANDLING IN PYTHON - PART B
+
+#else block
+
+try:
+    num = int(input("Enter a number: "))
+    print("Number:", num)
+
+except ValueError:
+    print("Invalid Input")
+
+else:
+    print("Input accepted")
+
+#finally block
+
+try:
+    number = 100 / 2
+    print(number)
+
+except:
+    print("Error")
+
+finally:
+    print("Program Finished")
+
+#custom example
+
+try:
+    marks = int(input("Enter marks: "))
+
+    if marks < 0:
+        raise ValueError
+
+    print("Marks:", marks)
+
+except ValueError:
+    print("Marks cannot be negative")
+
+
+##what i entered in the vscode terminal input:
+      
+Enter a number: 50
+Enter marks: 90
+
+
+  
+##output given by the vscode:
+
+Enter a number: 50
+Number: 50
+Input accepted
+
+50.0
+Program Finished
+
+Enter marks: 90
+Marks: 90
+      
