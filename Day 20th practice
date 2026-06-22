@@ -1,0 +1,58 @@
+#INHERITANCE
+
+class Person:
+
+    def display(self):
+
+##output given by the vscode:
+
+I am a Person
+
+
+
+##
+#METHOD OVERRIDING
+
+class Animal:
+
+    def sound(self):
+
+        print("Animal Sound")
+
+class Dog(Animal):
+
+    def sound(self):
+
+        print("Bark")
+
+dog=Dog()
+
+dog.sound()
+
+##output given by the vscode:
+
+Bark
+
+
+##
+#ENCAPSULATION
+
+class Account:
+
+    def __init__(self,balance):
+
+        self.__balance=balance
+
+    def show_balance(self):
+
+        print("Balance:",self.__balance)
+
+account=Account(5000)
+
+account.show_balance()
+
+##output given by the vscode:
+
+Balance: 5000
+
+
