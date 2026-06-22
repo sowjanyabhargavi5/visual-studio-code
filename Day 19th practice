@@ -1,0 +1,74 @@
+#CLASSES AND OBJECTS
+
+class Student:
+
+    name="Bhargavi"
+    age=20
+
+student1=Student()
+
+print(student1.name)
+print(student1.age)
+
+#another object
+
+student2=Student()
+
+print(student2.name)
+print(student2.age)
+
+##output given by the code:
+Bhargavi
+20
+Bhargavi
+20
+
+
+
+
+##
+#CONSTRUCTOR
+
+class Student:
+
+    def __init__(self,name,age):
+
+        self.name=name
+        self.age=age
+
+student1=Student("Bhargavi",20)
+
+print(student1.name)
+print(student1.age)
+
+student2=Student("Anu",19)
+
+print(student2.name)
+print(student2.age)
+
+##output given by the vscode:
+Bhargavi
+20
+Anu
+19
+
+
+##
+#METHODS
+
+class Student:
+
+    def __init__(self,name):
+
+        self.name=name
+
+    def display(self):
+
+        print("Student Name:",self.name)
+
+student1=Student("Bhargavi")
+
+student1.display()
+
+##output guven by the vscode:
+Student Name: Bhargavi
