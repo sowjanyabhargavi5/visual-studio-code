@@ -1,0 +1,81 @@
+#CONDITIONAL EXPRESSION
+
+numbers=[1,2,3,4,5,6]
+
+result=["Even" if x%2==0 else "Odd" for x in numbers]
+
+print(result)
+
+
+##output given by the vscode:
+['Odd', 'Even', 'Odd', 'Even', 'Odd', 'Even']
+
+
+
+
+#POSITIVE OR NEGATIVE
+
+numbers=[-3,5,-1,8,0]
+
+result=["Positive" if x>0 else "Negative or Zero" for x in numbers]
+
+print(result)
+
+#PASS OR FAIL
+
+marks=[85,32,90,45,20]
+
+result=["Pass" if mark>=35 else "Fail" for mark in marks]
+
+print(result)
+
+#SQUARE OR CUBE
+
+numbers=[1,2,3,4,5]
+
+result=[x*x if x%2==0 else x*x*x for x in numbers]
+
+print(result)
+
+
+##output given by the vscode:
+['Negative or Zero', 'Positive', 'Negative or Zero', 'Positive', 'Negative or Zero']
+
+['Pass', 'Fail', 'Pass', 'Pass', 'Fail']
+
+[1, 4, 27, 16, 125]
+
+
+
+
+#BIG OR SMALL
+
+numbers=[5,15,8,20,3]
+
+result=["Big" if x>=10 else "Small" for x in numbers]
+
+print(result)
+
+#EVEN OR ODD
+
+numbers=[1,2,3,4,5,6]
+
+result=["Even" if x%2==0 else "Odd" for x in numbers]
+
+print(result)
+
+
+##output given by the vscode:
+['Negative or Zero', 'Positive', 'Negative or Zero', 'Positive', 'Negative or Zero']
+
+['Pass', 'Fail', 'Pass', 'Pass', 'Fail']
+
+[1, 4, 27, 16, 125]
+
+['Small', 'Big', 'Small', 'Big', 'Small']
+
+['Odd', 'Even', 'Odd', 'Even', 'Odd', 'Even']
+
+
+
+
