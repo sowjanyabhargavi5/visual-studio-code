@@ -1,0 +1,57 @@
+#RECURSION
+
+def countdown(n):
+
+    if n == 0:
+        print("Done")
+        return
+
+    print(n)
+
+    countdown(n - 1)
+
+countdown(5)
+
+##output given by the vscode:
+5
+4
+3
+2
+1
+Done
+
+
+#LAMBDA FUNCTIONS
+
+square=lambda x:x*x
+
+print(square(5))
+
+add=lambda a,b:a+b
+
+print(add(10,20))
+
+multiply=lambda a,b:a*b
+
+print(multiply(5,4))
+
+
+##output given by the vscode:
+25
+30
+20
+
+#LAMBDA WITH SORTING
+
+students=[
+    ("Anu",85),
+    ("Ravi",92),
+    ("Bhargavi",88)
+]
+
+students.sort(key=lambda x:x[1])
+
+print(students)
+
+##output given by the vscode:
+[('Anu', 85), ('Bhargavi', 88), ('Ravi', 92)]
